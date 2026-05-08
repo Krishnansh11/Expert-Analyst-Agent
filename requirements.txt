@@ -1,2 +1,5 @@
-crewai[tools]==1.14.4
-gradio
+-e .
+crewai[google-genai,tools]==1.14.4
+gradio>=6.14.0
+litellm>=1.83.0
+python-dotenv>=1.0.0

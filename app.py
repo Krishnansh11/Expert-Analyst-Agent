@@ -4,6 +4,10 @@ import re
 import threading
 import time
 import gradio as gr
+import os
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
 
 from contextlib import redirect_stderr, redirect_stdout
 from datetime import datetime
