@@ -1,4 +1,3 @@
--e .
 crewai[google-genai,tools]==1.14.4
 gradio>=6.14.0
 litellm>=1.83.0
